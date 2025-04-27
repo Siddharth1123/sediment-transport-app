@@ -1,0 +1,97 @@
+.case-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Roboto, sans-serif;
+}
+
+.case-container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+.input-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.input-group small {
+  display: block;
+  margin-top: 0.3rem;
+  color: #666;
+}
+
+.table-wrapper {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+.guidance-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.guidance-table th,
+.guidance-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.guidance-table th {
+  background: #f0f0f0;
+}
+
+.note {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.done-btn {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  background: #00247d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.done-btn:hover {
+  background: #001a5a;
+}
+
+.case-result {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-left: 4px solid #00247d;
+  font-size: 0.95rem;
+}
+.next-btn {
+  position: fixed;      /* stay in viewport */
+  bottom: 20px;
+  right: 20px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background: #00247d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background 0.2s ease;
+}
+.next-btn:hover {
+  background: #001a5a;
+}
