@@ -21,12 +21,12 @@ const SplashScreen = () => {
       <div className="team-list">
         <h3>Done By:</h3>
         <ul>
-          <li>Prasunna Bhadrange</li>
-          <li>Prathvijit Savurwade</li>
-          <li>Ritesh Bonde</li>
-          <li>Mratteswari Sindlam</li>
-          <li>Aishwarya Niyogi</li>
-          <li>Ajinkya Pawar</li>
+          <li>Prasanna Bhadange</li>
+          <li>Pruthvijeet Sarawade</li>
+          <li>Ritesh Bande</li>
+          <li>Malleshwari Sindam</li>
+          <li>Aishwarya Nagur</li>
+          <li>Ajinkya Pawar</li>
         </ul>
       </div>
 
