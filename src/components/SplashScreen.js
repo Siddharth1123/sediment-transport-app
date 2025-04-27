@@ -7,7 +7,7 @@ const SplashScreen = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    const timer = setTimeout(() => navigate('/calculator'));
+    const timer = setTimeout(() => navigate('/calculator'),50000);
     return () => clearTimeout(timer);
   }, [navigate]);
 
